@@ -1,5 +1,5 @@
 # Trabalho - Redes Neurais Artificiais
-Este trabalho tem como objetivo desenvolver uma rede neural artificial que seja capaz de classificar o gênero de uma pessoa a partir das características de sua voz, como frequência e oratória.
+Este trabalho tem como objetivo desenvolver uma rede neural artificial que seja capaz de classificar o gênero de uma pessoa a partir das características de sua voz como frequência.
 
 ## voice.csv
 O arquivo **voice.csv**, disponibilizado no [Kaggle](https://www.kaggle.com/primaryobjects/voicegender), contém os dados utilizados para o treinamento da rede. A tabela possui 21 colunas e 3168 linhas dispostas da seguinte forma.
@@ -30,10 +30,10 @@ divided by the frequency range
 
 
 ## rna.py
-Arquivo executável de treinamento da rede neural artificial.
+Arquivo executável do treinamento da rede neural artificial.
 
 ## model.py
-Arquivo executável do modelo da rede neural artificial de melhor acurácia a partir de seu treinamento.
+Arquivo executável do modelo da rede neural artificial de melhor acurácia obtido a partir de seu treinamento.
 
 ## my_model.h5
-Modelo da rede neural artificial de melhor acurácia.
+Arquivo do modelo da rede neural artificial de melhor acurácia obtido a partir de seu treinamento.
